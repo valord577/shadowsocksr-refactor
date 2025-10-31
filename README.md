@@ -1,68 +1,9 @@
 ShadowsocksR - Refactor
 ===========
 
+> ⚠️ DEPRECATED: use [mihomo](https://github.com/MetaCubeX/mihomo)
+
 A fast tunnel proxy that helps you bypass firewalls.
-
-Info
-------
-
-|Edition |Change logs |
-|:----- |:------ |
-|Server |[Change logs](CHANGES) |
-
-Require
-------
-
-* Python 3.6+
-* Linux && Require 'epoll' model
-
-Usage
-------
-
-#### Get python source code
-
-    # clone this branch via git
-    git clone -b refactor-server https://github.com/valord577/shadowsocksr-refactor.git
-    
-    # or download as zip file and unzip it
-
-#### Initialize the project
-
-    # change directory into the root path of project and initialize the project
-    cd ./shadowsocksr-refactor && bash initcfg.sh
-
-#### Edit the configuration file
-
-    # ./conf/config.json is just a template
-    # editting ./user-config.json is ok
-    vi user-config.json
-    
-    # then save it
-
-#### Running and stopping
-
-    # running
-    bash run.sh
-    
-    # stopping
-    bash stop.sh
-
-#### Tail logs file
-
-    tail -500f ssr-refactor.log
-
-GUI Client
-------
-
-Use GUI clients on your local PC/phones.
-
-Check the README of your client for more information.
-
-* [Windows](https://github.com/shadowsocksr-backup/shadowsocksr-csharp)
-* [MacOS](https://github.com/qinyuhang/ShadowsocksX-NG-R/releases)
-* [Android](https://github.com/shadowsocksr-backup/shadowsocksr-android)
-* [Linux](https://github.com/qingshuisiyuan/electron-ssr-backup)
-* IOS (App named 'Shadowrocket', Non-Chinese mainland)
 
 License
 -------
